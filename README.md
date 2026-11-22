@@ -30,33 +30,19 @@ BigTrain/
 ├── out_test_base/                 # 初始 Base 测试
 ├── out_test_poppy/                # 初始 Poppy 测试
 │
-├── out_steps_ballblack_10/        # Ballblack：10 步优化
-├── out_steps_ballblack_25/        # Ballblack：25 步优化
-├── out_steps_ballblack_50/        # Ballblack：50 步优化
+├── out_steps_ballblack_10/        # Ballblack：10 步优化(无输出法线优化)
+├── out_steps_ballblack_25/        # Ballblack：25 步优化(无输出法线优化)
+├── out_steps_ballblack_50/        # Ballblack：50 步优化(无输出法线优化)
 │
-├── out_steps_kettle_10/           # Kettle：10 步优化
-├── out_steps_kettle_25/           # Kettle：25 步优化
-├── out_steps_kettle_50/           # Kettle：50 步优化
+├── out_steps_kettle_10/           # Kettle：10 步优化(无输出法线优化)
+├── out_steps_kettle_25/           # Kettle：25 步优化(无输出法线优化)
+├── out_steps_kettle_50/           # Kettle：50 步优化(无输出法线优化)
 │
 ├── figs/                          # 实验可视化图
 └── figs_full/                     # 完整实验可视化图
 ```
 
-### 2. 核心实验结果（建议优先阅读）
-
-| 实验目录 | 实验内容 | 推荐程度 |
-|---|---|---|
-| `out_full_base/` | MoGe-2 原始基线 | ⭐⭐⭐⭐⭐ |
-| `out_full_imgonly/` | 仅使用 Image Shift | ⭐⭐⭐⭐⭐ |
-| `out_full_poppy/` | 完整 Poppy 方法 | ⭐⭐⭐⭐⭐ |
-| `out_steps_ballblack_10/` | Ballblack 的 10 步优化(无输出法线优化) | ⭐⭐⭐⭐ |
-| `out_steps_ballblack_25/` | Ballblack 的 25 步优化(无输出法线优化) | ⭐⭐⭐⭐ |
-| `out_steps_ballblack_50/` | Ballblack 的 50 步优化(无输出法线优化) | ⭐⭐⭐⭐ |
-| `out_steps_kettle_10/` | Kettle 的 10 步优化(无输出法线优化) | ⭐⭐⭐⭐ |
-| `out_steps_kettle_25/` | Kettle 的 25 步优化(无输出法线优化) | ⭐⭐⭐⭐ |
-| `out_steps_kettle_50/` | Kettle 的 50 步优化(无输出法线优化) | ⭐⭐⭐⭐ |
-
-### 3. 值得关注的实验发现
+### 2. 值得关注的实验发现
 
 **（1）不同方法的效果对比**
 
@@ -89,7 +75,7 @@ BigTrain/
 
 > 注意：以上结论基于目前保存的 6 个物体实验结果，属于阶段性发现，尚不能代表整个数据集上的泛化表现。
 
-### 4. 推荐查看顺序
+### 3. 推荐查看顺序
 
 1. **查看 `log.csv`**：了解各实验的平均角度误差、RMSE 和准确率等指标。
 2. **查看 `vis/`**：直观比较输入图像、预测法线及误差图。
@@ -97,7 +83,7 @@ BigTrain/
 4. **查看 `figs_full/`**：浏览整理好的完整实验可视化结果。
 5. **查看 `out_steps_*/`**：分析优化步数对实验效果的影响。
 
-### 5. 重要文件说明
+### 4. 重要文件说明
 
 - `log.csv`：记录每个物体的实验指标，包括平均角度误差、Median、RMSE、Acc@11.25°、Acc@22.5° 和 Acc@30°。
 - `vis/`：保存法线预测的可视化图片。
