@@ -51,11 +51,12 @@ BigTrain/
 | `out_full_base/` | MoGe-2 原始基线 | ⭐⭐⭐⭐⭐ |
 | `out_full_imgonly/` | 仅使用 Image Shift | ⭐⭐⭐⭐⭐ |
 | `out_full_poppy/` | 完整 Poppy 方法 | ⭐⭐⭐⭐⭐ |
-| `out_steps_ballblack_25/` | Ballblack 的 25 步优化 | ⭐⭐⭐⭐ |
-| `out_steps_ballblack_50/` | Ballblack 的 50 步优化 | ⭐⭐⭐⭐ |
-| `out_steps_kettle_10/` | Kettle 的 10 步优化 | ⭐⭐⭐⭐ |
-| `out_steps_kettle_25/` | Kettle 的 25 步优化 | ⭐⭐⭐⭐ |
-| `out_steps_kettle_50/` | Kettle 的 50 步优化 | ⭐⭐⭐⭐ |
+| `out_steps_ballblack_10/` | Ballblack 的 10 步优化(无输出法线优化) | ⭐⭐⭐⭐ |
+| `out_steps_ballblack_25/` | Ballblack 的 25 步优化(无输出法线优化) | ⭐⭐⭐⭐ |
+| `out_steps_ballblack_50/` | Ballblack 的 50 步优化(无输出法线优化) | ⭐⭐⭐⭐ |
+| `out_steps_kettle_10/` | Kettle 的 10 步优化(无输出法线优化) | ⭐⭐⭐⭐ |
+| `out_steps_kettle_25/` | Kettle 的 25 步优化(无输出法线优化) | ⭐⭐⭐⭐ |
+| `out_steps_kettle_50/` | Kettle 的 50 步优化(无输出法线优化) | ⭐⭐⭐⭐ |
 
 ### 3. 值得关注的实验发现
 
