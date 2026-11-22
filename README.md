@@ -1,11 +1,9 @@
 # Poppy Reproduction
 
-This repository contains the Poppy source code and experimental results for reproducing the Poppy paper.
-
+本仓库保存了 Poppy 复现过程中的源代码、实验日志、模型输出及可视化结果。以下是主要目录说明和推荐阅读顺序。
 
 ## 📂 项目文件结构与实验结果说明
 > 这一部分是gpt写的, 与实验结果有出入的地方以实验结果为准
-本仓库保存了 Poppy 复现过程中的源代码、实验日志、模型输出及可视化结果。以下是主要目录说明和推荐阅读顺序。
 
 ### 1. 文件结构
 
