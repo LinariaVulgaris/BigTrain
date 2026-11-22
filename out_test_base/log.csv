@@ -1,0 +1,2 @@
+object,time_sec,mean_loss,median,rmse,acc_11,acc_22,acc_30
+owlblue,114.7497,12.8032,10.6866,14.8849,0.5350,0.8674,0.9721

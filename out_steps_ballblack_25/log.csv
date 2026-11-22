@@ -1,0 +1,2 @@
+object,time_sec,mean_loss,median,rmse,acc_11,acc_22,acc_30
+ballblack,29.2831,3.6375,3.3806,4.4083,0.9958,0.9989,0.9991

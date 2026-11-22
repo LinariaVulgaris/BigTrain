@@ -1,0 +1,2 @@
+object,time_sec,mean_loss,median,rmse,acc_11,acc_22,acc_30
+kettle,28.8937,6.5939,5.1103,9.7437,0.8847,0.9697,0.9895

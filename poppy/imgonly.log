@@ -1,0 +1,9 @@
+nohup: ignoring input
+Logging to: /mnt/workspace/out_full_imgonly/log.csv 
+
+[ballblack] time=114.4078s mean=6.1421 median=5.7292 rmse=7.1542 acc11=0.9125 acc22=0.9990 acc30=0.9992
+[bird] time=115.9235s mean=4.8578 median=3.6196 rmse=7.2925 acc11=0.9302 acc22=0.9865 acc30=0.9957
+[kettle] time=116.5388s mean=10.1439 median=7.0902 rmse=13.5006 acc11=0.6762 acc22=0.9139 acc30=0.9860
+[owlblue] time=116.5052s mean=7.5700 median=6.8116 rmse=8.9188 acc11=0.8136 acc22=0.9939 acc30=0.9988
+[pineapple] time=116.5519s mean=10.8402 median=9.6243 rmse=14.5381 acc11=0.6167 acc22=0.9671 acc30=0.9894
+[rooster] time=116.8559s mean=10.2442 median=8.8380 rmse=12.4619 acc11=0.6578 acc22=0.9531 acc30=0.9837

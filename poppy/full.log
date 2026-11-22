@@ -1,0 +1,17 @@
+nohup: ignoring input
+Logging to: /mnt/workspace/out_full_base/log.csv 
+
+[ballblack] time=114.3262s mean=4.4307 median=4.3117 rmse=4.9857 acc11=0.9989 acc22=0.9991 acc30=0.9993
+[bird] time=115.8850s mean=14.1230 median=14.6334 rmse=15.1857 acc11=0.2362 acc22=0.9826 acc30=0.9937
+[kettle] time=116.9098s mean=7.7192 median=6.2515 rmse=10.2409 acc11=0.8784 acc22=0.9764 acc30=0.9885
+[owlblue] time=116.9531s mean=12.8032 median=10.6866 rmse=14.8849 acc11=0.5350 acc22=0.8674 acc30=0.9721
+[pineapple] time=116.9295s mean=14.5751 median=13.1015 rmse=18.0624 acc11=0.3921 acc22=0.8708 acc30=0.9641
+[rooster] time=117.2197s mean=11.6846 median=10.6509 rmse=13.7847 acc11=0.5461 acc22=0.9358 acc30=0.9742
+Logging to: /mnt/workspace/out_full_poppy/log.csv 
+
+[ballblack] time=117.1716s mean=5.9815 median=5.5272 rmse=6.9207 acc11=0.9253 acc22=0.9990 acc30=0.9992
+[bird] time=117.1342s mean=5.6632 median=4.6996 rmse=7.7500 acc11=0.9349 acc22=0.9852 acc30=0.9952
+[kettle] time=117.3619s mean=10.5754 median=8.2834 rmse=13.5028 acc11=0.6639 acc22=0.9372 acc30=0.9874
+[owlblue] time=117.2196s mean=7.5801 median=6.8999 rmse=8.8776 acc11=0.8263 acc22=0.9934 acc30=0.9987
+[pineapple] time=117.2121s mean=11.5246 median=10.4203 rmse=15.0692 acc11=0.5605 acc22=0.9601 acc30=0.9882
+[rooster] time=117.5177s mean=11.0090 median=9.5997 rmse=13.1623 acc11=0.6002 acc22=0.9401 acc30=0.9833

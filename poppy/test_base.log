@@ -1,0 +1,4 @@
+nohup: ignoring input
+Logging to: /mnt/workspace/out_test_base/log.csv 
+
+[owlblue] time=114.7497s mean=12.8032 median=10.6866 rmse=14.8849 acc11=0.5350 acc22=0.8674 acc30=0.9721

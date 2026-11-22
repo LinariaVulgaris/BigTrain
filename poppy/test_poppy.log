@@ -1,0 +1,4 @@
+nohup: ignoring input
+Logging to: /mnt/workspace/out_test_poppy/log.csv 
+
+[owlblue] time=115.3640s mean=7.5741 median=6.8999 rmse=8.8706 acc11=0.8269 acc22=0.9934 acc30=0.9987
