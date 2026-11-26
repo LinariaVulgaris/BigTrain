@@ -92,6 +92,13 @@ BigTrain/
 
 **特别说明：** 如果后续需要深入分析实验结果，建议优先保留 `out_full_base/`、`out_full_imgonly/`、`out_full_poppy/` 中的 `log.csv`、`vis/` 和 `outputs/`，以及全部优化步数实验目录。这些数据对后续方法改进、误差分析和论文实验撰写具有较高价值。
 
+### 5. TransSfP 复现结果
+
+`01目前实验结果汇总/TransSfP_results/` 保存 TransSfP（ICCV 2023）的复现报告、论文风格可视化、
+逐帧指标、训练日志与逐像素诊断脚本。主结果 epoch 20 的 7 物体平均角误差为 **17.22°**
+（论文 16.29°）；epoch 49 的过拟合对照为 19.66°。完整分析与局限见该目录下的
+`TransSfP_reproduction.md`。
+
 
 ## Environment
 

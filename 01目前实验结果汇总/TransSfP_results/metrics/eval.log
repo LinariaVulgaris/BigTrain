@@ -1,0 +1,17 @@
+checkpoint: /mnt/workspace/results/transsfp_train/CheckPoints/check-point-epoch-0020.pth
+checkpoint epoch: 20
+/mnt/workspace/baselines/tools/eval_transsfp.py:130: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  rgba = cm.get_cmap("jet")(norm)
+hemi-sphere-big      frames= 14 mean=12.08 median=11.98 acc@11.25=45.24
+hemi-sphere-small    frames= 16 mean=13.81 median=13.51 acc@11.25=36.18
+bird-back            frames= 53 mean=24.35 median=19.83 acc@11.25=24.29
+cat-back             frames= 45 mean=18.42 median=15.07 acc@11.25=33.55
+cat-front            frames= 46 mean=19.86 median=16.12 acc@11.25=35.10
+tiny-cup             frames= 61 mean=14.93 median=10.08 acc@11.25=54.90
+tiny-cup-edges       frames= 64 mean=17.07 median=11.70 acc@11.25=48.38
+saved /mnt/workspace/results/transsfp_eval/metrics_per_frame.csv /mnt/workspace/results/transsfp_eval/metrics_summary.csv
+saved /mnt/workspace/results/transsfp_eval/figs/fig7_ours.png
+saved /mnt/workspace/results/transsfp_eval/figs/fig_inputs.png
+DONE
+saved /mnt/workspace/results/transsfp_train/val_by_epoch.csv
+saved /mnt/workspace/results/transsfp_train/val_curve.png
