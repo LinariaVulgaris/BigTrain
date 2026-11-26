@@ -1,0 +1,10 @@
+object,n_frames,base_mean,poppy_mean,poppy_minus_base,transsfp_mean,poppy_minus_transsfp
+hemi-sphere-big,3,51.92,70.65,+18.73,12.08,+58.57
+hemi-sphere-small,3,47.43,69.30,+21.87,13.81,+55.48
+bird-back,3,35.29,32.34,-2.94,24.35,+8.00
+cat-back,3,27.32,21.79,-5.53,18.42,+3.37
+cat-front,3,28.22,20.99,-7.23,19.86,+1.14
+tiny-cup,3,20.41,13.86,-6.55,14.93,-1.07
+tiny-cup-edges,3,22.80,15.91,-6.89,17.07,-1.16
+All (7 objects),21,33.34,34.98,+1.64,17.22,+17.76
+5 objects (excl. hemispheres),15,26.81,20.98,-5.83,18.93,+2.06

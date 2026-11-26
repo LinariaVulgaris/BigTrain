@@ -1,0 +1,39 @@
+=== FULL (official: image_lr=1e-5, fs_lr=1e-2, normal_lr=1e-3, 100 steps) ===
+Logging to: /mnt/workspace/results/transsfp_poppy_pilot/full_official/log.csv 
+
+[bird-back_014] time=118.5001s mean=29.0973 median=23.4763 rmse=35.3601 acc11=0.1300 acc22=0.4715 acc30=0.6511
+[bird-back_027] time=118.9885s mean=39.5503 median=33.0187 rmse=46.7509 acc11=0.0835 acc22=0.2692 acc30=0.4293
+[bird-back_040] time=119.2852s mean=28.3862 median=23.3537 rmse=34.9482 acc11=0.1827 acc22=0.4780 acc30=0.6521
+[cat-back_012] time=119.0700s mean=22.7772 median=19.6582 rmse=27.8863 acc11=0.2359 acc22=0.5738 acc30=0.7542
+[cat-back_023] time=119.2045s mean=24.3406 median=20.2315 rmse=29.1250 acc11=0.2034 acc22=0.5497 acc30=0.6766
+[cat-back_034] time=119.1673s mean=18.2622 median=15.0862 rmse=23.7840 acc11=0.3917 acc22=0.6910 acc30=0.8342
+[cat-front_012] time=119.2103s mean=19.0205 median=14.5725 rmse=25.5578 acc11=0.3773 acc22=0.7241 acc30=0.8258
+[cat-front_024] time=119.2051s mean=21.1743 median=16.5551 rmse=28.0421 acc11=0.3837 acc22=0.6239 acc30=0.7515
+[cat-front_035] time=119.2028s mean=22.7859 median=17.4674 rmse=29.8535 acc11=0.3502 acc22=0.6058 acc30=0.7147
+[hemi-sphere-big_004] time=119.2592s mean=70.8602 median=78.1635 rmse=76.1714 acc11=0.0393 acc22=0.0738 acc30=0.1017
+[hemi-sphere-big_008] time=119.2126s mean=70.5224 median=77.5612 rmse=75.2445 acc11=0.0234 acc22=0.0556 acc30=0.0882
+[hemi-sphere-big_011] time=119.2276s mean=70.5726 median=77.0573 rmse=75.2843 acc11=0.0185 acc22=0.0526 acc30=0.0879
+[hemi-sphere-small_005] time=119.2009s mean=69.3427 median=77.3124 rmse=74.0793 acc11=0.0302 acc22=0.0656 acc30=0.0983
+[hemi-sphere-small_009] time=119.2098s mean=69.4310 median=75.9062 rmse=74.0508 acc11=0.0225 acc22=0.0576 acc30=0.0925
+[hemi-sphere-small_012] time=119.2159s mean=69.1155 median=75.8225 rmse=73.9831 acc11=0.0333 acc22=0.0659 acc30=0.0966
+[tiny-cup-edges_017] time=119.2033s mean=15.7055 median=11.1312 rmse=23.7322 acc11=0.5047 acc22=0.7905 acc30=0.8987
+[tiny-cup-edges_033] time=119.1597s mean=16.4539 median=10.4333 rmse=24.1878 acc11=0.5303 acc22=0.7813 acc30=0.8736
+[tiny-cup-edges_048] time=119.1378s mean=15.5651 median=10.3162 rmse=23.4178 acc11=0.5337 acc22=0.8054 acc30=0.8968
+[tiny-cup_016] time=119.0908s mean=13.3323 median=8.6894 rmse=19.9439 acc11=0.6279 acc22=0.8676 acc30=0.9334
+[tiny-cup_031] time=119.1826s mean=11.8076 median=6.8501 rmse=21.0301 acc11=0.7478 acc22=0.9093 acc30=0.9262
+[tiny-cup_046] time=119.0929s mean=16.4522 median=8.1596 rmse=27.2427 acc11=0.6126 acc22=0.7970 acc30=0.8424
+| Object | Frames | MoGe-2 base | Poppy Full | Δ vs base | TransSfP | Δ vs TransSfP |
+|---|---:|---:|---:|---:|---:|---:|
+| hemi-sphere-big | 3 | 51.92° | 70.65° | +18.73 | 12.08° | +58.57 |
+| hemi-sphere-small | 3 | 47.43° | 69.30° | +21.87 | 13.81° | +55.48 |
+| bird-back | 3 | 35.29° | 32.34° | -2.94 | 24.35° | +8.00 |
+| cat-back | 3 | 27.32° | 21.79° | -5.53 | 18.42° | +3.37 |
+| cat-front | 3 | 28.22° | 20.99° | -7.23 | 19.86° | +1.14 |
+| tiny-cup | 3 | 20.41° | 13.86° | -6.55 | 14.93° | -1.07 |
+| tiny-cup-edges | 3 | 22.80° | 15.91° | -6.89 | 17.07° | -1.16 |
+| All (7 objects) | 21 | 33.34° | 34.98° | +1.64 | 17.22° | +17.76 |
+| 5 objects (excl. hemispheres) | 15 | 26.81° | 20.98° | -5.83 | 18.93° | +2.06 |
+
+wrote /mnt/workspace/results/transsfp_poppy_pilot/pilot_summary.csv
+wrote /mnt/workspace/results/transsfp_poppy_pilot/pilot_summary.md
+=== DONE ===

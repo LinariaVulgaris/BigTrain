@@ -99,6 +99,14 @@ BigTrain/
 （论文 16.29°）；epoch 49 的过拟合对照为 19.66°。完整分析与局限见该目录下的
 `TransSfP_reproduction.md`。
 
+### 6. TransSfP × Poppy 零样本 pilot
+
+`01目前实验结果汇总/TransSfP_Poppy_pilot/` 保存用 Poppy + MoGe-2 零样本跑 TransSfP
+测试集的 7 物体 × 3 帧 pilot：汇总表、逐帧 CSV、对比图与报告。5 个非半球物体平均
+角误差从 **26.81° 降到 20.98°**（−5.83°），其中两个 tiny cup 略优于训练过的 TransSfP；
+两个半球从 ~50° 恶化到 ~70°，把 7 物体平均拉成 33.34° → 34.98°。完整分析与可视化见
+该目录下的 `README.md`。
+
 
 ## Environment
 
